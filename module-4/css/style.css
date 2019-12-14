@@ -146,6 +146,9 @@ body {
   line-height: 32px;
   text-indent: 12px;
 }
+.item-price::before {
+  content: '\0024';
+}
 .wrapper:hover .item-name,
 .wrapper:focus .item-name {
   background-color: #1abc9c;
