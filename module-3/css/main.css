@@ -46,7 +46,8 @@ body {
   line-height: 24px;
   list-style: none;
 }
-.site-navigation a:hover{
+.site-navigation a:hover,
+.site-navigation a:focus {
   color: #03a9f4;
 }
 .site-navigation li:last-child {
@@ -116,8 +117,10 @@ margin-right: 60px;
   border-style: solid;
   border-width: 1px;
   padding: 0;
+  cursor: pointer;
 }
-.button-load:hover {
+.button-load:hover,
+.button-load:focus {
   color: #03a9f4;
   background-color: white;
 }
