@@ -189,13 +189,13 @@ body {
   list-style: none;
 }
 .collection-img {
-  width: 255px;
-  height: 283px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .card-collection-item {
   position: relative;
   width: 255px;
-  height: 283px;
   float: left;
   margin: 0;
 }
@@ -250,13 +250,18 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   visibility: visible;
 }
-
+.overlay-img {
+  position: relative;
+}
 .box-button {
   visibility: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.card-price::before {
+  content:"\0024";
 }
 .card-collection-item:hover .box-button {
   visibility: visible;
