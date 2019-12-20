@@ -252,10 +252,11 @@ body {
   visibility: hidden;
 }
 .card-collection-item:hover .overlay {
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
   visibility: visible;
 }
-.overlay-img {
+.overlay_img {
   position: relative;
 }
 .box-button {
@@ -311,7 +312,6 @@ body {
   margin-right: 0;
 }
 .overlay-button {
-  height: 50px;
   display: block;
   background-color: #323232;
   background-image: url(../img/basket.png);
