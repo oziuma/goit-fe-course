@@ -48,10 +48,6 @@ overflow: hidden;
 }
 
 
-.header-container {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 .navigation {
   display: flex;
@@ -118,7 +114,14 @@ overflow: hidden;
   width: 1200px;
   margin: 0 auto;
 }
-
+.section-title {
+  font-family: "Montserrat", regular;
+  font-size: 30px;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+ 
+}
 .section-title-1 {
   display: block;
   margin-bottom: 22px;
@@ -126,13 +129,10 @@ overflow: hidden;
   font-size: 24px;
   color: #333333;
   text-align: center;
+  text-transform: capitalize;
 }
-.section-title {
-  font-family: "Montserrat", regular;
-  font-size: 30px;
-  color: #333333;
-  text-align: center;
-}
+
+
 .section-title::after {
   display: block;
   content: "";
@@ -187,7 +187,7 @@ overflow: hidden;
   margin-bottom: 98px;
 }
 .services-list-item:nth-child(4) {
-  background-image: url(../img/BOOK.png);
+  background-image: url(../img/book.png);
   background-repeat: no-repeat;
   background-position: 5% 0;
   margin-bottom: 98px;
@@ -212,7 +212,7 @@ overflow: hidden;
     padding-bottom: 82px
 }
 .section-text {
-    width: 944px;
+    max-width: 944px;
     margin: 0 auto 92px;
     font-family: "Roboto", regular;
     font-size: 15px;
@@ -320,11 +320,15 @@ overflow: hidden;
 }
 
 .overlay-icons {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* width: 100%; */
 }
 
 .overlay-icon {
@@ -358,18 +362,12 @@ overflow: hidden;
 
 /* Footer */
 
-.footer {
+.footer div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 0;
   border-top: 1px solid #e5e5e5;
-}
-.footer {
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .footer-text {
