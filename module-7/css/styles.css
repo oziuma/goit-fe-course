@@ -25,7 +25,7 @@
        url('../fonts/roboto-slab-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/roboto-slab-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-[woff,woff2]
+
 
 /* noto-serif-italic - latin_cyrillic */
 @font-face {
@@ -36,6 +36,7 @@
        url('../fonts/noto-serif-v8-latin_cyrillic-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/noto-serif-v8-latin_cyrillic-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 *,
 *::before,
 *::after {
@@ -74,7 +75,7 @@ header nav {
   font-size:14px;
 }
 .block-nav-item{
-  width: 90px;
+  /* width: 90px; */
   text-align: center;
 }
 .block-nav-item a{
