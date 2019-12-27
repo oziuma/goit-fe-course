@@ -1,0 +1,86 @@
+.page-header {
+  padding-top: 30px;
+  padding-bottom: 132px;
+  background-image: linear-gradient( to top,rgba(252,227,138,.9) 0%, rgba(243,129,129, .9) 100%), url(../images/bg-m-min.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+
+.site-logo a{
+  /* text-decoration: none; */
+  display: inline-block;
+}
+.site-logo {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.site-logo::first-letter {
+  text-transform: uppercase;
+}
+.site-logo::first-letter {
+  text-transform: uppercase;
+}
+.span-logo::first-letter {
+  text-transform: uppercase;
+}
+
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  min-width: 490px;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+
+
+}
+
+.menu-item-link {
+  font-size: 14px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.menu-item-link::after {
+  display: block;
+  content: "";
+  width: auto;
+  height: 4px;
+  background-color: #fce38a;
+  opacity: 0;
+  margin-top: 12px;
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus {
+  background-color: transparent;
+  color: #fce38a;
+}
+
+.menu-item-link:hover::after {
+  opacity: 1;
+}
+
+.header-text {
+ font-family: "Kaushan Script",;
+}
+.header-btn {
+  border: 3px solid rgb(255, 255, 255);
+  width: 164px;
+  height: 44px;
+}
+
+
