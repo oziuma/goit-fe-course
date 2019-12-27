@@ -3,14 +3,16 @@
  */
 
 @import './normalize.scss';
+@import './helpers/fonts.scss';
 @import './helpers/variables.scss';
 @import './helpers/placeholders.scss';
 @import './base.scss';
-@import './mixins.scss';
-@import './helpers/fonts.scss';
+@import './helpers/mixins.scss';
+
 
 // 
 @import './sections/header.scss';
+@import './sections/wecome';
 @import './sections/services.scss';
 @import './sections/section-team.scss';
 @import './sections/footer';

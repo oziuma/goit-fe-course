@@ -7,50 +7,59 @@
     <title>Placeholder title</title>
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="css/styles.css">
     <!-- endinject -->
   </head>
 
   <body>
     <header class="page-header">
-      <div class="container">
-        <nav class="navigation">
-          <a href="#" class="site-logo">moGo
-          </a>
-          <ul class="menu">
-            <li class="menu-item">
-              <a href="#" class="menu-item-link">About</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-item-link">Service</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-item-link">Work</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-item-link">Blog</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-item-link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-          <div class="div-menu-item-icon">
-            <ul>
-            <li class="menu-item-icon">
-              <button class="btn-left"></button>
-            </li>
-            <li class="menu-item-icon">
-              <button class="btn-rigth">Learn more</button>
-            </li>
-          </ul>
-        </div>
-        <p class="header-text">Creative Template</p>
-        <h2 class="header-title">Welcome to MoGo</h2>
-        <button class="header-btn"></button>
+      <div class="header-box container">
+      <a href="#" class="site-logo">moGo
+      </a>
+      <div class="menu-box">
+      <nav class="navigation">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#" class="menu-item-link">About</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-item-link">Service</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-item-link">Work</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-item-link">Blog</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-item-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+        <ul class="helper-nav">
+          <li class="helper-item">
+            <button class="btn">
+              <svg class="helper-svg">
+                <use href="./images/sprite.svg#icon-magnifing"></use>
+              </svg>
+            </button></li>
+          <li class="helper-item">
+            <button class="btn">
+              <svg class="helper-svg">
+                <use href="./images/sprite.svg#icon-shoping"></use>
+              </svg>
+            </button></li>
+        </ul>
       </div>
+    </div>
     </header>
     <main>
+    <section class="welcome">
+      <div class="container">
+      <p class="header-text">Creative Template</p>
+      <h2 class="header-title"><span class="header-span">Welcome</span>to MoGo</h2>
+      <button class="header-btn">Learn more</button>
+    </div>
+    </section>
     <section class="services">
       <div class="container">
         <h2 class="section-title">
@@ -122,20 +131,36 @@
               <img
                 class="team-img"
                 srcset="
-                  ./images/matthew1-min.png 380w,
-                  ./images/matthew@2x-min.png 760w
+                  images/matthew1-min.png 380w,
+                  images/matthew@2x-min.png 760w
                 "
                 sizes="380px"
-                src="./images/matthew1-min.png"
+                src="images/matthew1-min.png"
                 alt="image"
                 height="470"
               />
               <div class="overlay">
                 <div class="overlay-icons">
-                  <a href="#" class="overlay-icon facebook"></a>
-                  <a href="#" class="overlay-icon twitter"></a>
-                  <a href="#" class="overlay-icon pinterest"></a>
-                  <a href="#" class="overlay-icon instagram"></a>
+                  <a href="#" class="overlay-icon facebook">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-facebook">
+                    </use>
+                  </svg>
+                </a>
+                  <a href="#" class="overlay-icon twitter">
+                    <svg class="svg-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="#" class="overlay-icon pinterest">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-pinterest">
+                    </use>
+                  </svg></a>
+                  <a href="#" class="overlay-icon instagram">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg></a>
                 </div>
               </div>
             </div>
@@ -147,20 +172,36 @@
               <img
                 class="team-img"
                 srcset="
-                  ./images/christopher1-min.png 380w,
-                  ./images/christopher@2x-min.png 760w
+                  images/christopher1-min.png 380w,
+                  images/christopher@2x-min.png 760w
                 "
                 sizes="380px"
-                src="./images/christopher1-min.png"
+                src="images/christopher1-min.png"
                 alt="image"
                 height="470"
               />
               <div class="overlay">
                 <div class="overlay-icons">
-                  <a href="#" class="overlay-icon facebook"></a>
-                  <a href="#" class="overlay-icon twitter"></a>
-                  <a href="#" class="overlay-icon pinterest"></a>
-                  <a href="#" class="overlay-icon instagram"></a>
+                  <a href="#" class="overlay-icon facebook">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-facebook">
+                    </use>
+                  </svg>
+                </a>
+                  <a href="#" class="overlay-icon twitter">
+                    <svg class="svg-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="#" class="overlay-icon pinterest">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-pinterest">
+                    </use>
+                  </svg></a>
+                  <a href="#" class="overlay-icon instagram">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg></a>
                 </div>
               </div>
             </div>
@@ -171,18 +212,34 @@
             <div class="overlay-wrapper">
               <img
                 class="team-img"
-                srcset="./images/michael1-min.png 380w, ./images/michael@2x-min.png 760w"
+                srcset="images/michael1-min.png 380w, images/michael@2x-min.png 760w"
                 sizes="380px"
-                src="./images/michael1-min.png"
+                src="images/michael1-min.png"
                 alt="image"
                 height="470"
               />
               <div class="overlay">
                 <div class="overlay-icons">
-                  <a href="#" class="overlay-icon facebook"></a>
-                  <a href="#" class="overlay-icon twitter"></a>
-                  <a href="#" class="overlay-icon pinterest"></a>
-                  <a href="#" class="overlay-icon instagram"></a>
+                  <a href="#" class="overlay-icon facebook">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-facebook">
+                    </use>
+                  </svg>
+                </a>
+                  <a href="#" class="overlay-icon twitter">
+                    <svg class="svg-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="#" class="overlay-icon pinterest">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-pinterest">
+                    </use>
+                  </svg></a>
+                  <a href="#" class="overlay-icon instagram">
+                    <svg class="svg-icon">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg></a>
                 </div>
               </div>
             </div>

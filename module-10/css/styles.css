@@ -107,6 +107,7 @@ overflow: hidden;
 /* Header */
 
 .page-header {
+  position: absolute;
   padding-top: 30px;
   padding-bottom: 132px;
 
@@ -119,7 +120,7 @@ overflow: hidden;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.wrapp {
+.welcome {
   background-image: -webkit-gradient( linear,left bottom, left top,from(rgba(252,227,138,.9)), to(rgba(243,129,129, .9))), url(../images/bg-m-min.png);
   background-image: -o-linear-gradient( bottom,rgba(252,227,138,.9) 0%, rgba(243,129,129, .9) 100%), url(../images/bg-m-min.png);
   background-image: linear-gradient( to top,rgba(252,227,138,.9) 0%, rgba(243,129,129, .9) 100%), url(../images/bg-m-min.png);
